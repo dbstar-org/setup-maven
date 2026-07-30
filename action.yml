@@ -140,7 +140,7 @@ runs:
       with:
         servers: |-
           <server>
-            <id>ossrh</id>
-            <username>${env.OSS_USERNAME}</username>
-            <password>${env.OSS_PASSWORD}</password>
+            <id>central</id>
+            <username>${env.CENTRAL_USERNAME}</username>
+            <password>${env.CENTRAL_PASSWORD}</password>
           </server>
